@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(114, 85, 113);
+    color: white;
+}
+
+#count {
+    text-align: center;
+    font-size: 6em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
+}
+
+#buttonsStyle {
+    text-align: center;
+}
+
+.buttons {
+    padding: 10px 20px;
+    margin-right: 20px;
+    width: 100px;
+
+    background-color: rgb(156, 160, 201);
+    color: white;
+    border: 1px white solid;
+    border-radius: 8px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.buttons:hover {
+    background-color: rgba(66, 3, 85, 0.5);
+}
