@@ -21,6 +21,6 @@ ajouter.onclick = function() {
 }
 
 reset.onclick = function() {
-    count = 0; //on remet le compteur a 0
+    count = 0; // on remet le compteur a 0
     document.getElementById('count').innerHTML = count;
 }
